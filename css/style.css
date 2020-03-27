@@ -1,9 +1,4 @@
 
-
-
-
-/* Create semantic <header> </header> */
-
 /* Begin Header */
 header {
     padding: 20px;
@@ -19,9 +14,6 @@ header h1 .seo {
     color: #d9dcd6;
 }
 /* End Header */
-
-
-
 
 /* Begin Nav */
 nav  {
@@ -39,8 +31,8 @@ nav ul li {
     margin-left: 25px;
 }
 /* End of Nav */
-/* Banner */
 
+/* Banner */
 figure {
     height: 800px;
     width: 100%;
@@ -58,38 +50,29 @@ figure {
     padding: 0;
     margin: 0;
 }
-
 body {
     background-color: #d9dcd6;
 }
-
-
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
 p {
     font-size: 16px;
 }
-
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -98,7 +81,6 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -107,7 +89,6 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -116,33 +97,16 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
 .search-engine-optimization img {
     max-height: 200px;
 }
-
 .online-reputation-management img {
     max-height: 200px;
 }
-
 .social-media-marketing img {
     max-height: 200px;
 }
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* End Main  */
 
 /* Start Aside */
 aside {
@@ -155,26 +119,28 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
 section {
     margin-bottom: 32px;
     color: #ffffff;
 }
-section .h3 {
+section .h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+section .bigimg {
+    max-height: 200px;
+
+}
+aside .h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-section .img {
+aside .img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
 /* End Aside */
-
-
-/* // Change footer from a div element to semantic <footer> </footer> */
 /* Start Footer */
 footer {
     padding: 30px;
