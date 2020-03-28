@@ -1,3 +1,5 @@
+Code Refactor Readme
+
 <!-- Directory changes -->
 Moved  CSS and Image folders to main directory, makes it simple for crawlers to find files without having to go back up and down in directories, making better site-loading.
 
